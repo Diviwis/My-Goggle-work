@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+   }
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    padding: 16px;
+    
+}
+
+/*Navigation Styles*/
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 10px;
+    
+}
+nav ul a{
+    color: #5f6368;
+    text-decoration: none;
+
+}
+
+/*End Navigation Styles*/
+
+#profileAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+}
+/*Start of Main Header Styles*/
+#mainHeaderContent{
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.searchField{
+    display: flex;
+    align-items: center;
+    border: 1px solid #5f6368;
+    border-radius: 100px;
+    width: 50%;
+    margin-top: 25px;
+    padding: 0px 12px;
+}
+.searchField input{
+    outline: none;
+    border: 0;
+    width: 100%;
+    padding: 12px;
+}
+.searchField button:focus{
+    outline: none;
+}
+.searchField button{
+    background-color:transparent;
+    border: none;
+    cursor: progress;
+}
+.actionBtn button{
+    background-color:#f8f9fa;
+    padding: 10px;
+    border: none;
+}
+.actionBtn{
+    margin-top: 10px;
+}
+.actionBtn:first-of-type{
+    margin-right: 10px;
+}
+
+/*End of Main Header Styles*/
+section .actionlink{
+    margin-top: 20px;
+        }
+footer{
+    background-color:rgb(218, 212, 212);
+    color: #70757a;
+}
+footer ul li a{
+    color:#918f8ffb;
+    text-decoration: none;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+}
+footer div,
+footer nav{
+    padding: 16px;
+}
+footer div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+footer div{
+    border-top: 1px solid rgb(155, 150, 150);
+}
